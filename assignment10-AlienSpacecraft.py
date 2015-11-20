@@ -1,9 +1,9 @@
 ##### Assignment 10
-##### Chloe Becker 
+##### Chloe ****** 
 
 
 # =================================================================
-# AlienSpacecraft Class
+# AlienSpacecraft Class ###not mine
 # =================================================================
 class AlienSpacecraft(object):
     
@@ -146,7 +146,6 @@ def main():
         if num == 1:
             loop = True
             #uses a loop to keep asking the user if the program throws an error
-            #****See the bottom for notes on alternate ways******
             while loop == True:
                 level = get_num("\nEnter the amount of ammo to add (between 0 and 10): ")
                 try:
@@ -198,18 +197,6 @@ spaceship at? ")
 main()
 
 
-## NOTES!!***
-#
-#loop = True
-#while loop == True:
-#   try:
-#       value = int(input("enter num"))
-#       try:
-#           alien.setAmmo(value)
-#       except:
-#           print("invalid")
-#   except TypeError:
-#       print("not an int- needs to be a number")
 
 
 
